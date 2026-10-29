@@ -5,7 +5,7 @@ on:
 
 permissions:
   contents: write
-
+  workflows: write
 jobs:
   generate-project:
     runs-on: ubuntu-latest
